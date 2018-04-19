@@ -35,8 +35,15 @@ menuElem[2].appendChild (mailElem);
 
 //6. Target the div id "first-name1" and replace the text "First Name" to "Wendy".
 
+var wendy = document.getElementById("first-name1")
+wendy.innerHTML = "Wendy"
 
 //7. Target the div id "first-name2" and replace the text "First Name" to "Marie".
 
+var marie = document.getElementById("first-name2")
+marie.innerHTML = "Marie"
 
 //8. Target the div id "first-name3" and replace the text "First Name" to "Anna".
+
+var anna = document.getElementById("first-name3")
+anna.innerHTML = "Anna"
