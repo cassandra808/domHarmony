@@ -26,6 +26,11 @@ document.getElementById("profile").appendChild (pElem);
 
 // 5. Create a span element of the id of "mail" and give it a content of 11. Append this element into the "Messages" li element.
 
+var menuElem = document.getElementsByClassName("menu");
+var mailElem = document.createElement ("span");
+mailElem.id = "mail";
+mailElem.innerHTML = 11;
+menuElem[2].appendChild (mailElem);
 
 
 //6. Target the div id "first-name1" and replace the text "First Name" to "Wendy".
